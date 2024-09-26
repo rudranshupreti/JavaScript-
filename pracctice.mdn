@@ -1,0 +1,92 @@
+// let challenge = "30 Days Of JavaScript";
+// console.log(challenge.length);
+
+// let challenge = "30 Days Of JavaScript";
+// console.log(challenge.toUpperCase());
+// console.log(challenge.toLowerCase());
+
+
+// let challenge = "30 Days Of JavaScript";
+// let lstindex = challenge.length -1 ;
+// console.log(challenge[lstindex]);
+
+// let challenge = "30 Days Of JavaScript";
+// console.log(challenge.substr(4,7));
+
+// let challenge = "30 Days Of JavaScript";
+// console.log(challenge.substring(3,5));
+
+// let challenge = "30 Days Of JavaScript";
+// console.log(challenge.split(' ')) ;
+    
+// let challenge = "     30 Days Of JavaScript    ";
+// console.log(challenge.trim())
+ 
+// let challenge = "30 Days Of JavaScript";
+// console.log(challenge.includes(9))
+
+// let challenge = "30 Days Of JavaScript";
+// console.log(challenge.replace(30,5));
+
+// let challenge = "30 Days Of JavaScript";
+// console.log(challenge.charAt(5));
+
+// let challenge = "30 Days Of JavaScript";
+// console.log(challenge.charCodeAt(5));
+
+// let challenge = "30 Days Of JavaScript";
+// console.log(challenge.lastIndexOf('t'));
+
+// let challenge = "30 Days Of JavaScript";
+// let challenge2 = "30 Days Of JavaScript";
+// console.log(challenge.concat(` ${challenge2}`));
+
+// let challenge = "30 Days Of JavaScript";
+// console.log(challenge.startsWith('3'));
+
+// let challenge = "30 Days Of JavaScript";
+// console.log(challenge.endsWith('t'));
+
+// let challenge = "30 Days Of JavaScript";
+// console.log(challenge.search('Day'));
+
+// let challenge = "30 Days Of JavaScript";
+// let pattern = /30/gi
+// console.log(challenge.match(pattern));
+
+// let challenge = "30 Days Of JavaScript";
+// let char = /\d+/
+// console.log(challenge.match(char));
+
+// let challenge = "30 Days Of JavaScript";
+// console.log(challenge.repeat('2'));
+
+// let challenge = "30 Days Of JavaScript";
+// console.log(typeof challenge);
+
+// const nextCallTime = "2024-09-25T16:05:00.442Z"; // Replace with your desired future date
+
+// // Convert nextCallTime to a Date object
+// const nextCallDate = new Date(nextCallTime);
+
+// // Function to format the date to the required string format
+// const formatDate = (date) => date.toISOString().split('.')[0] + '.000Z';
+
+// // Function to subtract time in minutes from the date
+// const subtractTime = (date, minutes) => new Date(date.getTime() - minutes * 60 * 1000);
+
+// // Create the array of formatted dates
+// const result = [
+//   formatDate(subtractTime(nextCallDate, 60)),  // 1 hour (60 minutes) before
+//   formatDate(subtractTime(nextCallDate, 15)),  // 15 minutes before
+//   formatDate(subtractTime(nextCallDate, 5)),   // 5 minutes before
+// ];
+
+// // Log the result
+// console.log(result);
+
+// let a = '9.8';
+// let pa= parseInt(a);
+// console.log(typeof(pa<=10));
+
+// console.log(4 > 3 || 10 < 12)
