@@ -1,92 +1,267 @@
-// let challenge = "30 Days Of JavaScript";
-// console.log(challenge.length);
+let challenge = "30 Days Of JavaScript";
+console.log(challenge.length);
 
-// let challenge = "30 Days Of JavaScript";
-// console.log(challenge.toUpperCase());
-// console.log(challenge.toLowerCase());
+let challenge = "30 Days Of JavaScript";
+console.log(challenge.toUpperCase());
+console.log(challenge.toLowerCase());
 
 
-// let challenge = "30 Days Of JavaScript";
-// let lstindex = challenge.length -1 ;
-// console.log(challenge[lstindex]);
+let challenge = "30 Days Of JavaScript";
+let lstindex = challenge.length -1 ;
+console.log(challenge[lstindex]);
 
-// let challenge = "30 Days Of JavaScript";
-// console.log(challenge.substr(4,7));
+let challenge = "30 Days Of JavaScript";
+console.log(challenge.substr(4,7));
 
-// let challenge = "30 Days Of JavaScript";
-// console.log(challenge.substring(3,5));
+let challenge = "30 Days Of JavaScript";
+console.log(challenge.substring(3,5));
 
-// let challenge = "30 Days Of JavaScript";
-// console.log(challenge.split(' ')) ;
+let challenge = "30 Days Of JavaScript";
+console.log(challenge.split(' ')) ;
     
-// let challenge = "     30 Days Of JavaScript    ";
-// console.log(challenge.trim())
+let challenge = "     30 Days Of JavaScript    ";
+console.log(challenge.trim())
  
-// let challenge = "30 Days Of JavaScript";
-// console.log(challenge.includes(9))
+let challenge = "30 Days Of JavaScript";
+console.log(challenge.includes(9))
 
-// let challenge = "30 Days Of JavaScript";
-// console.log(challenge.replace(30,5));
+let challenge = "30 Days Of JavaScript";
+console.log(challenge.replace(30,5));
 
-// let challenge = "30 Days Of JavaScript";
-// console.log(challenge.charAt(5));
+let challenge = "30 Days Of JavaScript";
+console.log(challenge.charAt(5));
 
-// let challenge = "30 Days Of JavaScript";
-// console.log(challenge.charCodeAt(5));
+let challenge = "30 Days Of JavaScript";
+console.log(challenge.charCodeAt(5));
 
-// let challenge = "30 Days Of JavaScript";
-// console.log(challenge.lastIndexOf('t'));
+let challenge = "30 Days Of JavaScript";
+console.log(challenge.lastIndexOf('t'));
 
-// let challenge = "30 Days Of JavaScript";
-// let challenge2 = "30 Days Of JavaScript";
-// console.log(challenge.concat(` ${challenge2}`));
+let challenge = "30 Days Of JavaScript";
+let challenge2 = "30 Days Of JavaScript";
+console.log(challenge.concat(` ${challenge2}`));
 
-// let challenge = "30 Days Of JavaScript";
-// console.log(challenge.startsWith('3'));
+let challenge = "30 Days Of JavaScript";
+console.log(challenge.startsWith('3'));
 
-// let challenge = "30 Days Of JavaScript";
-// console.log(challenge.endsWith('t'));
+let challenge = "30 Days Of JavaScript";
+console.log(challenge.endsWith('t'));
 
-// let challenge = "30 Days Of JavaScript";
-// console.log(challenge.search('Day'));
+let challenge = "30 Days Of JavaScript";
+console.log(challenge.search('Day'));
 
-// let challenge = "30 Days Of JavaScript";
-// let pattern = /30/gi
-// console.log(challenge.match(pattern));
+let challenge = "30 Days Of JavaScript";
+let pattern = /30/gi
+console.log(challenge.match(pattern));
 
-// let challenge = "30 Days Of JavaScript";
-// let char = /\d+/
-// console.log(challenge.match(char));
+let challenge = "30 Days Of JavaScript";
+let char = /\d+/
+console.log(challenge.match(char));
 
-// let challenge = "30 Days Of JavaScript";
-// console.log(challenge.repeat('2'));
+let challenge = "30 Days Of JavaScript";
+console.log(challenge.repeat('2'));
 
-// let challenge = "30 Days Of JavaScript";
-// console.log(typeof challenge);
+let challenge = "30 Days Of JavaScript";
+console.log(typeof challenge);
 
-// const nextCallTime = "2024-09-25T16:05:00.442Z"; // Replace with your desired future date
+const nextCallTime = "2024-09-25T16:05:00.442Z"; // Replace with your desired future date
 
-// // Convert nextCallTime to a Date object
-// const nextCallDate = new Date(nextCallTime);
+// Convert nextCallTime to a Date object
+const nextCallDate = new Date(nextCallTime);
 
-// // Function to format the date to the required string format
-// const formatDate = (date) => date.toISOString().split('.')[0] + '.000Z';
+// Function to format the date to the required string format
+const formatDate = (date) => date.toISOString().split('.')[0] + '.000Z';
 
-// // Function to subtract time in minutes from the date
-// const subtractTime = (date, minutes) => new Date(date.getTime() - minutes * 60 * 1000);
+// Function to subtract time in minutes from the date
+const subtractTime = (date, minutes) => new Date(date.getTime() - minutes * 60 * 1000);
 
-// // Create the array of formatted dates
-// const result = [
-//   formatDate(subtractTime(nextCallDate, 60)),  // 1 hour (60 minutes) before
-//   formatDate(subtractTime(nextCallDate, 15)),  // 15 minutes before
-//   formatDate(subtractTime(nextCallDate, 5)),   // 5 minutes before
-// ];
+// Create the array of formatted dates
+const result = [
+  formatDate(subtractTime(nextCallDate, 60)),  // 1 hour (60 minutes) before
+  formatDate(subtractTime(nextCallDate, 15)),  // 15 minutes before
+  formatDate(subtractTime(nextCallDate, 5)),   // 5 minutes before
+];
 
-// // Log the result
-// console.log(result);
+// Log the result
+console.log(result);
 
-// let a = '9.8';
-// let pa= parseInt(a);
-// console.log(typeof(pa<=10));
+let a = '9.8';
+let pa= parseInt(a);
+console.log(typeof(pa<=10));
 
-// console.log(4 > 3 || 10 < 12)
+console.log(4 > 3 || 10 < 12)
+
+using an array string split method
+let str = "javascript";
+console.log(str.split(''));
+
+let lastitem = [
+    'j', 'a', 'v', 'a',
+    's', 'c', 'r', 'i',
+    'p', 't'
+  ];
+  let last = lastitem.length-1;
+  let lasti = lastitem[last];
+  console.log(lasti);
+const numbers = [1, 2, 3, 4, 5]
+console.log(Array.isArray(numbers)) // true
+
+const number = 100;
+console.log(Array.isArray(number)) // false
+
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+console.log(names.join('% '));
+
+const numbers = [1, 2, 3, 4, 5]
+numbers.splice(0,3)
+console.log(numbers)                // -> remove all items
+First remove all the punctuations and change the string to array and count the number of words in the array
+let text ='I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+const rm = text.replace(/\./g,'');
+console.log(rm.split(' '));  convert string to array 
+
+
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+const backEnd = ['Node','Express', 'MongoDB']
+
+console.log(frontEnd.concat(backEnd));
+
+
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+const backEnd = ['Node','Express', 'MongoDB']
+
+console.log(backEnd.join(' '));
+function with two parameters
+function functionName(parm1, parm2) {
+    //code goes her
+  }
+  functionName(parm1, parm2) // during calling or invoking two arguments needed
+  // Function without parameter doesn't take input, so lets make a function with parameters
+  function sumTwoNumbers(numOne, numTwo) {
+    let sum = numOne + numTwo
+    console.log(sum)
+  }
+  sumTwoNumbers(10, 20) // calling functions
+  // If a function doesn't return it doesn't store data, so it should return
+  
+  function sumTwoNumbers(numOne, numTwo) {
+    let sum = numOne + numTwo
+    return sum
+  }
+  
+  console.log(sumTwoNumbers(10, 20))
+  function printFullName(firstName, lastName) {
+    return `${firstName} ${lastName}`
+  }
+  console.log(printFullName('Asabeneh', 'Yetayeh'))
+function myname (){
+    console.log("rudransh upreti")
+}
+myname();
+
+function square(){
+    let a = 5;
+    let b = 38;
+    let sum = a+b;
+    console.log(sum);
+
+}
+
+square();
+
+myname();
+
+function square(){
+    let a = 5;
+    let b = 38;
+    let sum = a+b;
+return sum;
+}
+console.log(square());
+
+function sub (a,b){
+ let sub = a - b;
+ return sub;
+}
+console.log(sub(6,4));
+
+const module1 = function(n){
+    return n%2==0
+}
+
+console.log(module1(4));
+
+(function(n){
+    console.log(n*n)
+}
+)(2);
+
+let square = (function(n){
+    console.log(n)
+})(61895);
+
+const square = n => {
+    return n *n 
+}
+
+console.log(square(5));
+
+
+function functionname (name = 'rudransh'){
+let msg = `${name}, welcom to game `
+return msg
+}
+
+
+console.log(functionname());
+
+const rect =   {
+    length: 3,
+    width:20
+}
+console.log(rect.length);
+
+const person = {
+    firstName: 'Asabeneh',
+    age: 250,
+    country: 'Finland',
+    city:'Helsinki',
+    skills: ['HTML', 'CSS', 'JS'],
+    title: 'teacher',
+    address: {
+      street: 'Heitamienkatu 16',
+      pobox: 2002,
+      city: 'Helsinki'
+    },
+    getPersonInfo: function() {
+      return `I am ${this.firstName} and I live in ${this.city}, ${this.country}. I am ${this.age}.`
+    }
+  }
+  const value = person.hasOwnProperty('address')
+console.log(value)
+
+
+cosn
+
+
+
+  
+  const nextCallTime = "2024-09-28T14:05:00.442Z";
+const hii = (date) => {
+    const nextCallDate = new Date(nextCallTime);
+    const min = [5, 15, 60];
+    const arr = [];
+    // const dateFormat = (date) => date.toISOString().split('.')[0] + '.000Z';
+    for (let i = 0; i < min.length; i++) {
+        const minutes = min[i];
+        const subtractTime = new Date(nextCallDate.getTime() - minutes * 60 * 1000);
+        if (subtractTime.getTime() > new Date().getTime()) {
+            arr.push(subtractTime);
+        }
+    }
+    return arr;
+};
+
+console.log(hii(nextCallTime))
+
+
