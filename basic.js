@@ -66,7 +66,7 @@ questionAnswer.forEach((question) => {
     }
     else{
         const iscorrect = userAns.answer.length === question.answer.length &&
-        userAns.answer.every((val) => question.answer.include(val));
+        userAns.answer.every((val) => question.answer.includes(val));
     if (iscorrect){
         result.right++;
     }else{
@@ -74,9 +74,9 @@ questionAnswer.forEach((question) => {
     }
 }
 
-    
+return result;
+
     
 });
 
 
-return result;
